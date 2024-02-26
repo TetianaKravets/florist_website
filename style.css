@@ -1,0 +1,107 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    text-align: center;
+}
+
+
+#navbar_top {
+    background-color:#4D693A;
+    height: 30px;
+}
+
+#navbar_top a{
+    color: #fffdfa;;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 20px 20px;
+    }
+ 
+
+#navbar_top a:hover{color:#2F332D}
+
+#navbar3 {
+    display:inline;
+    background-color:#4D693A;
+    float: left;
+}
+
+#navbar4 {
+    display:inline;
+    background-color:#4D693A;
+    float:right;
+}
+
+h1 {
+    color: #4d693a;; 
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.flourist_image{
+    width: 31% 
+}
+
+#navbar_bottom {
+    background-color:#4D693A;
+    display:flex;
+    justify-content: space-evenly;
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    z-index: 5;
+    position: fixed;
+    
+}
+
+#navbar_bottom a{
+    color: #fffdfa;;
+    font-size: 15px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    }
+ 
+
+#navbar_bottom a:hover{color:#2F332D}
+
+.paragraph_1{
+    font-size: 16px;
+    color:#2F332D; 
+}
+
+.paragraph_2{
+    font-size: 16px;
+    color: rgb(180, 102, 118) ;
+    text-align: center;
+}
+
+
+#paragraphs_symbols{
+    display:flex;
+    justify-content: space-around;
+}
+
+.flowers_images{
+    width: 85%;
+}
+
+#block_all{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    }
+
+
+#block_1 {
+    display: flex;
+    flex-direction: column;           
+    align-items: center;  
+    justify-content: space-evenly; 
+}
+
+.button1 {
+    font-size:medium;
+}
